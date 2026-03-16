@@ -69,6 +69,4 @@ npm install
 npm run dev:frontend
 ```
 
-## Notes
-- This project is intended for training/ideation and can be a starting point for adding authentication, role-based permissions, and production-grade database backends.
 
