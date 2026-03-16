@@ -33,7 +33,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "hrms_backend.urls"
+ROOT_URLCONF = "backend.urls"
 
 TEMPLATES = [
     {
@@ -51,8 +51,8 @@ TEMPLATES = [
     }
 ]
 
-WSGI_APPLICATION = "hrms_backend.wsgi.application"
-ASGI_APPLICATION = "hrms_backend.asgi.application"
+WSGI_APPLICATION = "backend.wsgi.application"
+ASGI_APPLICATION = "backend.asgi.application"
 
 DATABASES = {
     "default": {
